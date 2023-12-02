@@ -3,7 +3,7 @@
 // -m will do 'git commit -m [argv]'.
 // -p will do the above including 'git push'.
 
-package main
+package commit
 
 import (
 	"flag"
@@ -32,7 +32,7 @@ func commit(message string) bool {
 	return true
 }
 
-func main() {
+func Commit() {
 	// Define flags
 	commitMsg := flag.String("m", "", "Commit with message")
 	pushFlag := flag.String("p", "", "Commit and Push with message")
