@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dt022/commit/pkg/commit"
+	commit "github.com/dt022/commit/pkg"
 )
 
 func main() {
