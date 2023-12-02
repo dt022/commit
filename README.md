@@ -3,7 +3,7 @@
 Golang tool for easy commit all & push with message 
 
 ## Installation
-`go install -v github.com/dt022/commit`
+`go install -v github.com/dt022/commit@latest`
 
 ## Usage
 `commit -h`
