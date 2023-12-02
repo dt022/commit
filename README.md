@@ -1,6 +1,9 @@
 # Commit
 
-Golang tool for easy commit & push with message 
+Golang tool for easy commit all & push with message 
+
+## Installation
+`go install -v github.com/dt022/commit`
 
 ## Usage
 `commit -h`
@@ -14,5 +17,9 @@ Options:
         Commit and Push with message
 ```
 
-## Installation
-`go install -v github.com/dt022/commit`
+## Example
+Local commit without pushing to remote
+`commit -m 'first commit'`
+
+Commit and push to remote
+`commit -p 'fixing bug'`
