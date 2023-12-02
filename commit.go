@@ -50,7 +50,7 @@ func main() {
 	// if commitMsg, then commit
 	if *commitMsg != "" {
 		commit(*commitMsg)
-		fmt.Printf("Successfully committed with the message %v.", *commitMsg)
+		fmt.Printf("Successfully committed with the message {%v.}", *commitMsg)
 	}
 
 	// Push to remote repository if -p flag is provided
@@ -64,6 +64,6 @@ func main() {
 			os.Exit(1)
 		}
 
-		fmt.Printf("Successfully committed & pushed with the message %v.", *pushFlag)
+		fmt.Printf("Successfully committed & pushed with the message {%v.}", *pushFlag)
 	}
 }
